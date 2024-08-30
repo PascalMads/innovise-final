@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovise</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="assets/Transparente 2.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">
+                            <img src="assets/icon pack/icon pack/Para fundo cor escura/Prancheta 9icon.png" alt="Home Icon" class="nav-icon"> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cases">
+                            <img src="assets/icon pack/icon pack/Para fundo cor escura/Prancheta 10icon.png" alt="Cases Icon" class="nav-icon"> Cases
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">
+                            <img src="assets/icon pack/icon pack/Para fundo cor escura/Prancheta 16icon.png" alt="Serviços Icon" class="nav-icon"> Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quem-somos">
+                            <img src="assets/icon pack/icon pack/Para fundo cor escura/Prancheta 11icon.png" alt="Quem Somos Icon" class="nav-icon"> Quem Somos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contatos">
+                            <img src="assets/icon pack/icon pack/Para fundo cor escura/Prancheta 7icon.png" alt="Contatos Icon" class="nav-icon"> Contatos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary btn-primary-custom ml-2" href="#" onclick="toggleForm('loginForm')">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-secondary btn-secondary-custom ml-2" href="#" onclick="toggleForm('registerForm')">Seja Membro</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home" data-aos="fade-in">
+        <div class="hero-content">
+            <h1>Transforme seus desafios em oportunidades</h1>
+            <p>Com a expertise da Innovise, o sucesso é uma questão de escolha.</p>
+        </div>
+    </section>
+    
+    <!-- Cases Section -->
+    <section class="section" id="cases" data-aos="fade-up">
+        <div class="container">
+            <h2>Nossos Cases</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-card" data-aos="fade-up">
+                        <img src="assets/perfil1.jpg" alt="Pessoa 1">
+                        <div class="profile-text">
+                            <h5>Paula Mendes</h5>
+                            <p>Paula Mendes, cliente da nossa consultoria de gestão de pessoas, implementou nossas estratégias de desenvolvimento e reconhecimento de talentos. Em um ano, a rotatividade de funcionários caiu 30%, e a satisfação da equipe melhorou. O novo programa fortaleceu a cultura organizacional e aumentou a produtividade.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="profile-card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="assets/perfil2.jpg" alt="Pessoa 2">
+                        <div class="profile-text">
+                            <h5>João Silva</h5>
+                            <p>João Silva, cliente da nossa consultoria financeira, utilizou nossos serviços para reestruturar seu planejamento financeiro. Reduzimos custos operacionais em 25% e otimizamos recursos com uma análise detalhada. Isso melhorou a margem de lucro e fortaleceu a posição de mercado da empresa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="profile-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="assets/perfil3.jpg" alt="Pessoa 3">
+                        <div class="profile-text">
+                            <h5>Lucas Pereira</h5>
+                            <p>Lucas Pereira, cliente da nossa consultoria de inovação tecnológica, implementou nossas soluções de automação de processos e uma nova plataforma de e-commerce personalizada. Em seis meses, a empresa de Lucas viu um aumento de 40% nas vendas online. A transformação digital modernizou suas operações e aprimorou significativamente a experiência do cliente, resultando em maior eficiência e satisfação.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section class="section" id="servicos" data-aos="fade-up">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" data-aos="fade-up">
+                        <img src="assets/reuniao.jpeg" class="card-img-top" alt="Serviço 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Serviço 1</h5>
+                            <p class="card-text">Descrição detalhada do Serviço 1, abordando suas principais características.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="assets/dados.jpg" class="card-img-top" alt="Serviço 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Serviço 2</h5>
+                            <p class="card-text">Descrição detalhada do Serviço 2, abordando suas principais características.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="assets/apertmaos.jpg" class="card-img-top" alt="Serviço 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Serviço 3</h5>
+                            <p class="card-text">Descrição detalhada do Serviço 3, abordando suas principais características.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Quem Somos Section -->
+    <section class="section" id="quem-somos" data-aos="fade-up">
+        <div class="container">
+            <h2>Quem Somos</h2>
+            <div class="about-background">
+                <h3>Sobre a Innovise</h3>
+                <p>A Innovise é uma consultoria dedicada a transformar desafios em oportunidades por meio de soluções inovadoras e personalizadas. Nosso compromisso é ajudar empresas a alcançar seu potencial máximo com estratégias eficazes e consultoria especializada.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contatos Section -->
+    <section class="section" id="contatos" data-aos="fade-up">
+        <div class="container">
+            <h2>Contatos</h2>
+            <ul class="list-unstyled">
+                <li><i class="fas fa-map-marker-alt"></i> Rua Exemplo, 123, São Paulo, SP</li>
+                <li><i class="fas fa-phone"></i> (11) 1234-5678</li>
+                <li><i class="fas fa-envelope"></i> contato@innovise.com.br</li>
+            </ul>
+            <div class="social-media">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Innovise. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginForm" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="loginEmail">Email:</label>
+                            <input type="email" class="form-control" id="loginEmail" placeholder="Seu email">
+                        </div>
+                        <div class="form-group">
+                            <label for="loginPassword">Senha:</label>
+                            <input type="password" class="form-control" id="loginPassword" placeholder="Sua senha">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-primary-custom">Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="registerForm" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Seja Membro</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="registerName">Nome:</label>
+                            <input type="text" class="form-control" id="registerName" placeholder="Seu nome completo">
+                        </div>
+                        <div class="form-group">
+                            <label for="registerEmail">Email:</label>
+                            <input type="email" class="form-control" id="registerEmail" placeholder="Seu email">
+                        </div>
+                        <div class="form-group">
+                            <label for="registerPassword">Senha:</label>
+                            <input type="password" class="form-control" id="registerPassword" placeholder="Sua senha">
+                        </div>
+                        <button type="submit" class="btn btn-secondary btn-secondary-custom">Registrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        function toggleForm(formId) {
+            $('#' + formId).modal('toggle');
+        }
+    </script>
+</body>
+</html>
